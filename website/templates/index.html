@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Prediction App</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: linear-gradient(to right, #74ebd5, #ACB6E5);
+            text-align: center;
+            padding-top: 50px;
+        }
+        .box {
+            background: white;
+            padding: 30px;
+            width: 400px;
+            margin: auto;
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+        }
+        button {
+            padding: 10px 20px;
+            background: #4CAF50;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input {
+            padding: 8px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h2>Weather Prediction</h2>
+
+    <form method="POST">
+        <label>Select Date:</label><br>
+        <input type="date" name="date" value="{{ selected_date }}" required>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if rain %}
+        <h3>Rain: {{ rain }}</h3>
+        <h3>Temperature: {{ temp }} °C</h3>
+    {% endif %}
+</div>
+
+</body>
+</html>
