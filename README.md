@@ -10,9 +10,9 @@ The system analyzes environmental features such as:
 - Wind Speed
 
   <p align="center">
-  <img src="https://raw.githubusercontent.com/nimeshi1023/Weather-Prediction/main/screenshot/Screenshot%20(526).png" width="40%"/>
+  <img src="https://github.com/nimeshi1023/Weather-Prediction/blob/main/Screenshot/Screenshot%20(526).png" width="40%"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/nimeshi1023/Weather-Prediction/main/screenshot/Screenshot%20(527).png" width="40%"/>
+  <img src="https://github.com/nimeshi1023/Weather-Prediction/blob/main/Screenshot/Screenshot%20(527).png" width="40%"/>
 </p>
 
 Using trained ML models, it predicts:
