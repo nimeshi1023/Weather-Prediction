@@ -8,6 +8,7 @@ The system analyzes environmental features such as:
 - Humidity
 - Atmospheric Pressure
 - Wind Speed
+- Rainfall
 
   <p align="center">
   <img src="https://github.com/nimeshi1023/Weather-Prediction/blob/main/Screenshot/Screenshot%20(526).png" width="40%"/>
@@ -24,7 +25,7 @@ Using trained ML models, it predicts:
 - Scikit-learn
 - Pandas
 - NumPy
-- Matplotlib
+
 
 ## 🚀 Features
 - Temperature Prediction
